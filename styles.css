@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #222222;
+  line-height: 1.6;
+  background-color: #f7f4ee;
+  padding: 0 24px;
+}
+.site-header {
+  background-color: #15203a;
+  padding: 16px 24px;
+  border-radius: 12px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+nav a {
+  color: #f5a26b;
+  text-decoration: none;
+  padding: 8px;
+}
+nav a:hover {
+  color: #ffffff;
+}
+.hero {
+  text-align: center;
+  padding: 48px 24px;
+}
+h1 {
+  font-size: 40px;
+  color: #15203a;
+}
+h2 {
+  color: #b8541a;
+}
+.card {
+  background-color: #ffffff;
+  border: 2px solid #e3dccd;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+footer {
+  text-align: center;
+  color: #6b7280;
+}
+.button,
+button {
+  background-color: #b8541a;
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.button:hover,
+button:hover {
+  background-color: #7e3510;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #2c64b8;
+}
